@@ -1,12 +1,41 @@
-/*
-changing heading font
-*/
-h1, h2, h3, h4, h5, h6 {
+/*remove rounded corners*/
+.navbar {
+    border-radius: 0;
+}
+/*changing heading font*/
+h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
 }
-/*
-changing body font
-*/
-p, div {
-  font-family: 'Merriweather', serif;
+
+h1 {
+  font-weight: 600;
 }
+/*changing body font*/
+h6, p, div {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+}
+/*Changing container to crop images to perfect circle*/
+.container {
+  overflow: hidden;
+}
+.container img {
+  width: 100%;
+}
+/*Text flush in the center*/
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.jumbotron {
+  /*  add background image  */
+  /*background-image: url(images/circle1.png);*/
+  /*  change text colour  */
+}
+/*Fiddling with the jumbotron.*/
+.jumbotron h6 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 200;
+}
+/*Medium's CSS: https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06*/
