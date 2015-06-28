@@ -6,19 +6,31 @@
 h1, h2, h3, h4, h5 {
   font-family: "Raleway", sans-serif;
 }
-
 h1 {
-  font-weight: 600;
+  font-weight: 300;
+  font-size: 48px;
+}
+h5 {
+  font-weight: 400;
+  font-size: 14px;
 }
 /*changing body font*/
 h6, p, div {
   font-family: 'Merriweather', serif;
-  font-weight: 300;
 }
-/*Text flush in the center*/
-p {
-  margin-left: 10%;
-  margin-right: 10%;
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+}
+p, a {
+  font-weight: 300;
+  font-size: 14px;
+}
+a {
+  color: #1a1a1a;
+}
+div {
+  font-weight: 300;
 }
 .jumbotron {
   /*  add background image  */
@@ -32,3 +44,16 @@ p {
   font-weight: 200;
 }
 /*Medium's CSS: https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06*/
+/*Custom div*/
+div.folio {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+dd {
+  margin-bottom: 2em;
+  color: #1a1a1a;
+}
+dt {
+  color: #AAA;
+}
