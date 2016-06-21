@@ -32,18 +32,14 @@ a {
 div {
   font-weight: 300;
 }
-.jumbotron {
-  /*  add background image  */
-  /*background-image: url(images/circle1.png);*/
-  /*  change text colour  */
-}
+
 /*Fiddling with the jumbotron.*/
 .jumbotron h6 {
   margin-bottom: 15px;
   font-size: 30px;
   font-weight: 200;
 }
-/*Medium's CSS: https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06*/
+
 /*Custom div*/
 div.folio {
   margin-top: 10%;
@@ -62,4 +58,4 @@ dt {
 .hangingindent {
   padding-left: 22px ;
   text-indent: -22px ;
-} 
+}
